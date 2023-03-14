@@ -1,0 +1,146 @@
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0% 25%;
+}
+.nav-bar li{
+    display:inline-block;
+    list-style-type: none;
+    padding: 8px 10px;
+}
+.nav-bar-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FFD600;
+    padding: 20px;
+}
+.nav-bar-2 button{
+    border-radius: 7px;
+
+}
+.nav-bar-2 input{
+    border-radius: 7px;
+}
+.lego-wars{
+    color: white;
+    background-color: black;
+    padding: 0px 12px;
+    height: 20vh;
+    margin-top: -2%;
+}
+.lego-wars p1{
+    margin-left: 45%;
+    font-family: fantasy;
+}
+.lego-wars img{
+    margin-left: 45%;
+    width: 5%;
+    margin-bottom: 35%;
+    padding: 0px 0px 0px 10px;
+}
+
+.series{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+.series form{
+    border: solid;
+    border-color: black;
+    padding: 0px 20px;
+    height: fit-content;
+    width: 60%;
+    border-radius: 9px;
+    border-color:antiquewhite;
+}
+input[type=range][orient=vertical]
+{
+    writing-mode: bt-lr; /* IE */
+    -webkit-appearance: slider-vertical; /* Chromium */
+    width: 8px;
+    height: 175px;
+    padding: 0 5px;
+    float: right;
+    margin-top: -220%;
+    background-color: #FFD600;
+}
+form {
+    margin-left: 10%;
+}
+.images-div{
+    display: flex;
+   /* margin-left: 1%; */
+   justify-content: space-between;
+}
+.images-div img{
+    border-radius: 7px;
+    padding: 0px 50px;
+}
+.images-div p{
+    margin-left: 23%;
+}
+.inner-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main-div{
+    display: flex;
+}
+.offers-divs{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+.button button{
+    margin-left: 40%;
+    width: 22%;
+    padding: 12px 20px;
+    background-color: #FFD600;
+    color: white;
+    border-color: #FFD600;
+    border-radius: 7px;
+}
+.scroll{
+    margin-left: 40%;
+}
+.scroll button{
+    border-radius: 16px;
+    padding: 10px;
+    border-color: whitesmoke;
+}
+#scrollbutton1{
+    background-color: #FFD600;
+    color: white;
+}
+.scroll i{
+    color: #FFD600;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-div{
+    background-color: #26004C;
+    color: white;
+    padding: 2px 15px;
+    border-radius: 5px;
+    
+}
+.footer-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:1200px) {
+  body{
+    background-color: antiquewhite;
+  }  
+  .images-div{
+    background-color: antiquewhite;
+  }
+}
