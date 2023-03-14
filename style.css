@@ -69,6 +69,14 @@ input[type=range][orient=vertical]
 form {
     margin-left: 10%;
 }
+.button-heart{
+    margin-left: 30%;
+    
+}
+.button-heart i{
+    margin-left: 20%;
+    color: #FFD600;
+}
 .images-div{
     display: flex;
    /* margin-left: 1%; */
