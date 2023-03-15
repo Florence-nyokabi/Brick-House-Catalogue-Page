@@ -69,13 +69,24 @@ input[type=range][orient=vertical]
 form {
     margin-left: 10%;
 }
+i {
+    color: #FFD600;
+}
 .button-heart{
     margin-left: 30%;
-    
+    /* background-color: #FFD600; */   
 }
 .button-heart i{
     margin-left: 20%;
-    color: #FFD600;
+    color: white;
+    background-color: #FFD600;
+    border-radius: 35%;
+}
+.button-heart button{
+    border-radius: 18%;
+    background-color: #E70062;
+    border-color: #E70062;
+    color: white;
 }
 .images-div{
     display: flex;
@@ -138,6 +149,9 @@ form {
     border-radius: 5px;
     
 }
+.footer-inside i{
+    color: white;
+}
 .footer-2{
     display: flex;
     flex-direction: row;
@@ -145,10 +159,6 @@ form {
 }
 
 @media screen and (max-width:1200px) {
-  body{
-    background-color: antiquewhite;
-  }  
-  .images-div{
-    background-color: antiquewhite;
-  }
+    
+  
 }
